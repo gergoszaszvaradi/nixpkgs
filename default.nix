@@ -2,7 +2,7 @@
 
 let
   mixxx = import ./pkgs/mixxx.nix { inherit pkgs; };
-in
+in rec
 {
   inherit mixxx;
 }
